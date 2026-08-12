@@ -1,84 +1,62 @@
 # Amazon Clone 🛒
 
-A simple and responsive **Amazon Clone** built as my **1st Year React + Vite + JavaScript project**.
+A clean and responsive **Amazon-inspired e-commerce frontend** built with **React, Vite, and JavaScript** as my **1st Year project**.
 
-This project was created by **Utkarsh Gupta** to practice React fundamentals, component-based development, routing, state management, responsive UI design, and basic e-commerce functionality.
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-orange?style=for-the-badge)](https://euphonious-profiterole-63e20a.netlify.app/)
+[![GitHub](https://img.shields.io/badge/💻%20GitHub-View%20Repository-black?style=for-the-badge&logo=github)](https://github.com/utkarshStudio/Amazon-Frontend-Clone-project)
+
+</div>
 
 > **Disclaimer:** This is a student project created for educational purposes only. It is not affiliated with or endorsed by Amazon.
 
 ---
 
-## 👨‍💻 About the Project
+## 📌 About the Project
 
-The **Amazon Clone** is a frontend e-commerce website inspired by the Amazon shopping experience.
+This project is a frontend Amazon-inspired e-commerce website built using React and Vite.
 
-It includes a complete shopping flow where users can:
-
-- Browse products
-- Search products
-- Explore categories
-- View product details
-- Add products to cart
-- Update product quantities
-- Remove products
-- Create a demo account
-- Sign in with demo credentials
-- Enter a delivery address
-- Place demo orders
-- View previous orders
-- Use the website on desktop, tablet, and mobile devices
-
-The project focuses on keeping the code **simple, clean, and beginner-friendly** while demonstrating practical React concepts.
+It focuses on practicing React fundamentals while creating a functional shopping experience with product browsing, search, categories, cart management, checkout, authentication, orders, routing, LocalStorage, and responsive design.
 
 ---
 
 ## ✨ Features
 
 ### 🏠 Home Page
-- Amazon-style navigation bar
+- Amazon-inspired navigation
 - Search bar
-- Delivery location section
-- Account and Orders navigation
+- Delivery location
+- Account and Orders
 - Shopping cart
 - Responsive mobile menu
 - Hero section
-- Category shopping boxes
-- Today's Deals section
-- Electronics best sellers
-- Fashion products
-- Home & Furniture
-- Beauty & Personal Care
-- Books, Toys & Games
-- Grocery & Sports products
-- Footer with multiple navigation sections
+- Product categories
+- Today's Deals
+- Best-selling products
+- Responsive footer
 
 ### 🔎 Product Search
-- Search products using the navigation search bar
-- Search by:
-  - Product name
-  - Category
-  - Description
-- Displays matching results
-- Shows a message when no products are found
+- Search by product name
+- Search by category
+- Search by description
+- Matching search results
+- No-results handling
 
 ### 🛍️ Products
-- Product listing page
+- Product listing
 - Product cards
 - Product images
-- Product names
-- Ratings
-- Review counts
-- Current price
-- M.R.P.
+- Ratings and reviews
+- Price and MRP
 - Discount percentage
 - Prime indicator
-- Free delivery text
-- Add to Cart button
+- Free delivery
+- Add to Cart
 
 ### 📦 Product Details
-- Individual product page
-- Large product image
-- Product name
+- Product image
+- Product information
 - Rating
 - Price
 - Description
@@ -88,8 +66,6 @@ The project focuses on keeping the code **simple, clean, and beginner-friendly**
 - Buy Now
 
 ### 🗂️ Categories
-Available categories include:
-
 - Electronics
 - Fashion
 - Home
@@ -99,34 +75,30 @@ Available categories include:
 - Toys
 - Sports
 
-Users can filter products by category.
-
 ### 🛒 Shopping Cart
-- View all cart items
+- Add products
 - Increase quantity
 - Decrease quantity
 - Remove products
-- Calculate subtotal
-- Display total number of items
-- Proceed to checkout
-- Quick cart dropdown from the navbar
+- Subtotal calculation
+- Item count
+- Checkout
+- Quick cart dropdown
 
 ### 💳 Demo Checkout
-- Delivery address form
+- Delivery address
 - Name
 - Street address
 - City
 - PIN code
 - Order summary
-- Subtotal calculation
-- Delivery charge calculation
-- Free delivery for qualifying orders
-- Place Order button
+- Delivery charges
+- Free delivery calculation
+- Place Order
 
-> This is a **demo checkout**. No real payment is processed.
+> This is a demo checkout. No real payment is processed.
 
 ### 📋 Orders
-- View placed orders
 - Order ID
 - Order date
 - Total amount
@@ -136,31 +108,103 @@ Users can filter products by category.
 - Delivery status
 
 ### 🔐 Demo Authentication
-Includes:
-
-- Sign In page
-- Register page
+- Login
+- Registration
 - Password confirmation
 - Basic form validation
 - LocalStorage-based demo user
-- Navigation after sign in/register
 
-> Authentication is implemented only for learning purposes and is **not a real secure authentication system**.
+> Authentication is implemented only for learning purposes and is not a real secure authentication system.
 
 ### 📱 Responsive Design
-The UI adapts to different screen sizes with:
-
-- Desktop layout
-- Tablet-friendly layouts
-- Mobile navigation
-- Mobile menu
+- Desktop
+- Tablet
+- Mobile
+- Responsive navigation
 - Responsive product grids
-- Flexible shopping sections
-- Responsive cart and checkout pages
+- Responsive cart and checkout
 
 ---
 
-## 🧩 Project Structure
+## ⚛️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **React** | User interface |
+| **Vite** | Development and build tool |
+| **JavaScript ES6+** | Application logic |
+| **React Router** | Routing and navigation |
+| **CSS3** | Styling and responsive design |
+| **Lucide React** | Icons |
+| **LocalStorage** | Data persistence |
+
+---
+
+## 🧠 React Concepts Used
+
+- Components
+- Props
+- `useState`
+- `useEffect`
+- React Router
+- Form handling
+- LocalStorage
+- Responsive CSS
+- Reusable components
+
+---
+
+## 📊 Product Data
+
+The project contains **48 sample products** across different categories.
+
+Each product contains information such as:
+
+```js
+{
+  id,
+  name,
+  price,
+  mrp,
+  rating,
+  reviews,
+  category,
+  deal,
+  prime,
+  image,
+  description
+}
+```
+
+---
+
+## 🔄 Shopping Flow
+
+```text
+Home
+  ↓
+Browse Products
+  ↓
+Search / Categories
+  ↓
+Product Details
+  ↓
+Add to Cart
+  ↓
+Shopping Cart
+  ↓
+Checkout
+  ↓
+Enter Address
+  ↓
+Place Order
+  ↓
+Your Orders
+```
+
+---
+
+## 📂 Project Structure
 
 ```text
 amazon-clone/
@@ -206,83 +250,9 @@ amazon-clone/
 
 ---
 
-## ⚛️ Tech Stack
+## 💾 LocalStorage
 
-| Technology | Purpose |
-|---|---|
-| **React** | Building the user interface |
-| **Vite** | Development server and build tool |
-| **JavaScript ES6+** | Application logic |
-| **React Router** | Page navigation and routing |
-| **CSS3** | Styling and responsive design |
-| **Lucide React** | Icons |
-| **LocalStorage** | Saving cart, orders and demo user data |
-
----
-
-## 🧠 React Concepts Used
-
-This project helped me practice several React fundamentals:
-
-### Components
-The UI is divided into reusable components such as:
-
-- `Header`
-- `Footer`
-- `ProductCard`
-- `ScrollToTop`
-
-### Props
-
-Data and functions are passed between components using props.
-
-Example:
-
-```jsx
-<ProductCard
-  product={product}
-  addToCart={addToCart}
-/>
-```
-
-### State
-
-React `useState` is used for:
-
-- Cart
-- Orders
-- Search input
-- Mobile menu
-- Cart dropdown
-- Login forms
-- Register forms
-- Product quantity
-
-### Effects
-
-`useEffect` is used to synchronize application data with LocalStorage.
-
-### Routing
-
-React Router handles pages such as:
-
-```text
-/
- /products
- /product/:id
- /categories
- /categories/:name
- /search
- /cart
- /checkout
- /orders
- /login
- /register
-```
-
-### LocalStorage
-
-Cart and order information remain available after refreshing the page.
+The application uses browser LocalStorage to preserve:
 
 ```text
 amazon_cart
@@ -290,191 +260,71 @@ amazon_orders
 amazon_user
 ```
 
----
-
-## 📊 Product Data
-
-The project contains **48 sample products** across multiple categories.
-
-Each product contains information such as:
-
-```js
-{
-  id,
-  name,
-  price,
-  mrp,
-  rating,
-  reviews,
-  category,
-  deal,
-  prime,
-  image,
-  description
-}
-```
-
-This makes it easy to reuse the same product data across:
-
-- Home page
-- Product page
-- Search
-- Categories
-- Cart
-- Checkout
-- Orders
-
----
-
-## 🔄 Shopping Flow
-
-```text
-Home
-  ↓
-Browse Products
-  ↓
-Search / Categories
-  ↓
-Product Details
-  ↓
-Add to Cart
-  ↓
-Shopping Cart
-  ↓
-Checkout
-  ↓
-Enter Address
-  ↓
-Place Order
-  ↓
-Your Orders
-```
-
----
-
-## 🛒 Cart Logic
-
-The application handles cart operations using React state.
-
-### Add Product
-
-If the product is already in the cart, its quantity increases.
-
-Otherwise, the product is added as a new cart item.
-
-### Change Quantity
-
-Users can increase or decrease the quantity.
-
-If the quantity reaches zero, the item is removed.
-
-### Remove Product
-
-Products can be directly removed from the cart.
-
-### Subtotal
-
-The subtotal is calculated from:
-
-```text
-Product Price × Quantity
-```
-
----
-
-## 💾 Data Persistence
-
-The project uses browser LocalStorage instead of a backend database.
-
-This allows the application to preserve:
-
-```text
-Cart Data
-Order Data
-Demo User
-```
-
-even after refreshing the browser.
+This allows cart, order, and demo user data to remain after refreshing the browser.
 
 ---
 
 ## 🎨 UI Design
 
-The design follows an Amazon-inspired layout with:
+The interface includes:
 
 - Dark navigation bar
-- Secondary navigation panel
+- Secondary navigation
 - Search bar
 - Product cards
 - Shopping sections
-- Amazon-style colors
+- Amazon-inspired colors
 - Responsive grids
 - Hover effects
-- Buttons and interactive elements
 - Mobile navigation
 
-The styling is written using regular **CSS3** to keep the project easy to understand.
-
----
-
-## 🖼️ Images
-
-The project uses:
-
-- Local Amazon logo asset
-- Online product images
-- Online category images
-- Hero background image
-
-Product images are represented inside the project data and displayed dynamically through React.
+The styling is written using regular **CSS3**.
 
 ---
 
 ## 📦 Installation
 
-Clone the repository:
+### Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/utkarshStudio/Amazon-Frontend-Clone-project.git
 ```
 
-Move into the project:
+### Open the project
 
 ```bash
-cd amazon-clone
+cd Amazon-Frontend-Clone-project
 ```
 
-Install dependencies:
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### Start development server
 
 ```bash
 npm run dev
 ```
 
-Then open the local URL shown by Vite.
+Then open the local URL provided by Vite.
 
 ---
 
-## 🏗️ Build for Production
-
-Create a production build:
+## 🏗️ Production Build
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+### Preview production build
 
 ```bash
 npm run preview
 ```
 
-Run ESLint:
+### Run ESLint
 
 ```bash
 npm run lint
@@ -487,44 +337,43 @@ npm run lint
 | Page | Purpose |
 |---|---|
 | Home | Main shopping homepage |
-| Products | Complete product listing |
-| Product Details | Individual product information |
-| Categories | Category-based browsing |
+| Products | Product listing |
+| Product Details | Individual product |
+| Categories | Category browsing |
 | Search Results | Search products |
-| Cart | Manage shopping cart |
-| Checkout | Enter address and place order |
-| Orders | View previous orders |
-| Login | Demo sign-in |
-| Register | Demo account creation |
+| Cart | Manage cart |
+| Checkout | Address and order |
+| Orders | Previous orders |
+| Login | Demo login |
+| Register | Demo registration |
 | 404 | Unknown page handling |
 
 ---
 
 ## 🎯 Project Goals
 
-The main goals of this project were to learn:
+This project was created to practice:
 
 - React fundamentals
-- Vite project setup
 - Component-based development
 - Props and state
 - React Hooks
 - React Router
 - Form handling
 - LocalStorage
-- JavaScript logic
+- JavaScript
 - Responsive CSS
 - Reusable components
-- Basic e-commerce functionality
-- Git and GitHub project management
+- E-commerce functionality
+- Git and GitHub
 
 ---
 
 ## 🚀 What I Learned
 
-Building this project helped me understand how a frontend application can be divided into reusable components and connected together using routing and state.
+Building this project helped me understand how a frontend application can be divided into reusable components and connected using routing and state management.
 
-I practiced creating:
+I practiced building:
 
 - Reusable React components
 - Dynamic product pages
@@ -537,22 +386,17 @@ I practiced creating:
 - LocalStorage persistence
 - Responsive layouts
 
-This project was an important step in my **1st Year journey of learning React and frontend development**.
-
 ---
 
 ## 🔮 Future Improvements
 
-Possible future improvements include:
-
-- Real backend integration
+- Backend integration
 - Database integration
 - Secure authentication
 - Real payment gateway
 - Product reviews
 - Wishlist
-- Product filtering and sorting
-- Product pagination
+- Advanced filtering and sorting
 - User profiles
 - Real order tracking
 - Admin dashboard
@@ -566,7 +410,7 @@ Possible future improvements include:
 
 **B.Tech Computer Science Student**
 
-This project was developed as part of my **1st Year learning journey in React, JavaScript and Web Development**.
+This project was developed as part of my **1st Year learning journey in React, JavaScript, and Web Development**.
 
 ---
 
@@ -585,8 +429,20 @@ This project was developed as part of my **1st Year learning journey in React, J
 💾 LocalStorage
 📱 Responsive design
 🎨 Amazon-inspired UI
-🧩 Reusable components
+🧩 Reusable Components
 ```
+
+---
+
+## 🔗 Project Links
+
+<div align="center">
+
+[🚀 Live Demo](https://euphonious-profiterole-63e20a.netlify.app/)
+
+[💻 GitHub Repository](https://github.com/utkarshStudio/Amazon-Frontend-Clone-project)
+
+</div>
 
 ---
 
