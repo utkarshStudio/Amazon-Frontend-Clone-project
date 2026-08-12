@@ -4,7 +4,7 @@ A clean and responsive **Amazon-inspired e-commerce frontend** built with **Reac
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-orange?style=for-the-badge)](https://euphonious-profiterole-63e20a.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-orange?style=for-the-badge)](https://amazon-frontend-clone-project.vercel.app/)
 [![GitHub](https://img.shields.io/badge/💻%20GitHub-View%20Repository-black?style=for-the-badge&logo=github)](https://github.com/utkarshStudio/Amazon-Frontend-Clone-project)
 
 </div>
@@ -438,7 +438,7 @@ This project was developed as part of my **1st Year learning journey in React, J
 
 <div align="center">
 
-[🚀 Live Demo](https://euphonious-profiterole-63e20a.netlify.app/)
+[🚀 Live Demo](https://amazon-frontend-clone-project.vercel.app/)
 
 [💻 GitHub Repository](https://github.com/utkarshStudio/Amazon-Frontend-Clone-project)
 
